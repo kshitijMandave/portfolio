@@ -9,6 +9,7 @@
 .justify-between{
     justify-content: space-between; /*This is for give space between to elements*/
 }
+
 .justify-center{
     justify-content: center;
 }

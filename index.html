@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,45 +11,52 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 
     <!-- External Css File Links -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
     <header>
         <div class="container">
-        <nav class="flex items-center justify-between">
-            <div class="left flex items-center">
-                <div class="branding">
-                    <img title="Logo" src="/images/Logo.png" alt="Khsa_Logo">
-                </div>
-                <div>
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Services</a>
-                    <a href="#">Pages</a>
-                    <a href="#">Blog</a>
+            <nav class="flex items-center justify-between">
+                <div class="left flex items-center">
+                    <div class="branding">
+                        <img title="Logo" src="/images/Logo.png" alt="Khsa_Logo">
+                    </div>
+                    <div>
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Pages</a>
+                        <a href="#">Blog</a>
 
+                    </div>
+                </div>
+                <div class="right">
+                    <button class="btn btn-primary">Contact</button>
+                </div>
+            </nav>
+            <div class="hero flex items-center justify-between">
+                <div class="left flex-1 flex justify-center">
+                    <img title="Kshitij_Picture" src="/images/hero_i.png" alt="">
+                </div>
+                <div class="right flex-1">
+                    <h6>Kshitij Hivraj Mandave</h6>
+                    <h1>I'm a Software <span>Engineer</span></h1>
+                    <p>I’m Kshitij, a passionate MERN Stack Engineer with a background from BCA. I specialize in
+                        building dynamic and responsive web applications using MongoDB, Express.js, React, and Node.js.
+                        My experience spans end-to-end development, ensuring seamless integration and optimal
+                        performance. I thrive on creating innovative solutions and enhancing user experiences.</p>
+                    <div>
+                        <button class="btn btn-secondary">Download Cv</button>
+                    </div>
                 </div>
             </div>
-            <div class="right">
-                <button class="btn btn-primary">Contact</button>
-            </div>
-        </nav>
-        <div class="hero flex items-center justify-between">
-            <div class="left flex-1 flex justify-center">
-                <img title="Kshitij_Picture" src="/images/hero_i.png" alt="">
-            </div>
-            <div class="right flex-1">
-                <h6>Kshitij Hivraj Mandave</h6>
-                <h1>I'm a Software <span>Engineer</span></h1>
-                <p>I’m Kshitij, a passionate MERN Stack Engineer with a background from BCA. I specialize in building dynamic and responsive web applications using MongoDB, Express.js, React, and Node.js. My experience spans end-to-end development, ensuring seamless integration and optimal performance. I thrive on creating innovative solutions and enhancing user experiences.</p>
-                <div>
-                    <button class="btn btn-secondary">Download Cv</button>
-                </div>
-            </div>
-        </div>
         </div>
     </header>
+
+    <!-- Section About -->
     <section class="about">
         <div class="container flex items-center">
             <div class="flex-1 flex justify-center">
@@ -57,7 +65,10 @@
             <div class="flex-1">
                 <h1>About <span>Me</span> </h1>
                 <h3>Hello!! I'm Kshitij Hivraj Mandave</h3>
-                <p>I’m a software engineer who thrives both in coding and exploring new places. My travels have taken me to stunning locations like Kedarnath, Manali, and Puri Jagannath, reflecting my love for adventure and diverse cultures. For more about my journey and interests, connect with me on Instagram and Facebook.
+                <p>I’m a software engineer who thrives both in coding and exploring new places. My travels have taken me
+                    to stunning locations like Kedarnath, Manali, and Puri Jagannath, reflecting my love for adventure
+                    and diverse cultures. For more about my journey and interests, connect with me on Instagram and
+                    Facebook.
                 </p>
                 <div class="social">
                     <a href="#"><img src="/images/instagram.svg" alt="Instagram"></a>
@@ -76,21 +87,85 @@
                 <div class="card">
                     <img src="/images/web-application.svg" alt="">
                     <h2>Web Applications</h2>
-                    <p>We craft custom web applications tailored to your needs. Our solutions combine innovation with functionality to elevate your digital presence.</p>
+                    <p>We craft custom web applications tailored to your needs. Our solutions combine innovation with
+                        functionality to elevate your digital presence.</p>
                 </div>
                 <div class="card">
                     <img src="/images/mobile-app.svg" alt="">
                     <h2>Mobile Applications</h2>
-                    <p>We develop intuitive mobile applications that enhance user experiences. Our designs blend functionality with elegance to bring your vision to life.</p>
+                    <p>We develop intuitive mobile applications that enhance user experiences. Our designs blend
+                        functionality with elegance to bring your vision to life.</p>
                 </div>
 
                 <div class="card">
                     <img src="/images/cloud.svg" alt="">
                     <h2>Cloud Applications</h2>
-                    <p>We build scalable cloud applications designed for flexibility and efficiency. Our solutions ensure seamless performance and secure access, wherever you are.</p>
+                    <p>We build scalable cloud applications designed for flexibility and efficiency. Our solutions
+                        ensure seamless performance and secure access, wherever you are.</p>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="freelancer">
+        <h1>I'm avialiable for Freelancer!</h1>
+        <p>we provide high Standard clean website for your Business Solutions</p>
+        <button class=" btn btn-primary">Download Cv</button>
+    </section>
+
+    <section class="reviews">
+        <div class="container">
+            <h1 class="section-heading">Our<span> Client</span> </h1>
+            <p>We provide high standar clean website for your business solutions</p>
+            <div class="slider">
+                <div class="slide">
+                    <img src="/images/lady_img.png" alt="">
+                    <p>
+                        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum"
+                    </p>
+                    <span>John Doel Company ABC</span>
+                </div>
+
+                <div class="slide">
+                    <img src="/images/lady_img.png" alt="">
+                    <p>
+                        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum"
+                    </p>
+                    <span>John Doel Company ABC</span>
+                </div>
+
+                <div class="slide">
+                    <img src="/images/lady_img.png" alt="">
+                    <p>
+                        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum"
+                    </p>
+                    <span>John Doel Company ABC</span>
+                </div>
+
+                <div class="slide">
+                    <img src="/images/lady_img.png" alt="">
+                    <p>
+                        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum"
+                    </p>
+                    <span>John Doel Company ABC</span>
+                </div>
+            </div>
+            <div class="slider-dots"></div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="/js/app.js"></script>
 </body>
+
 </html>

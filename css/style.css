@@ -177,6 +177,12 @@
         text-align: center;
         position: relative;
         padding-top: 75px ;
+        cursor: pointer;
+    }
+    section.services .card-wrapper .card:hover{
+        color: white;
+        background: var(--ternery);
+        transition: all .3s ease;
     }
 
     section.services .card-wrapper .card img{
@@ -194,4 +200,64 @@
 
     section.services .card-wrapper .card h2{
         margin-bottom: 10px;
+    }
+
+    section.freelancer{
+        text-align: center;
+        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(/images/Code_img.jpg);
+        color: white;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 85%, 0 100%);
+    }
+
+    section.freelancer h1{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    section.freelancer .btn{
+        margin-top: 40px;
+        margin-bottom: 150px;
+    }
+
+    section.reviews .slider .slide img{
+        height: 120px;
+        width: 120px;
+        object-fit: cover; /* to set aspect ratio */
+        margin-bottom: 10px;
+
+    }
+
+    section.reviews .slider .slide{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        padding: 0 250px;
+    }
+
+    section.reviews .slider .slide p{
+        color: var(--pure);
+        margin-bottom: 5px;
+    }
+
+    section.reviews .slider-dots .dots{
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    section.reviews .slider-dots button{
+        background: var(--light);
+        font-size: 0;
+        width: 10px;
+        height: 5px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        margin-right: 10px;
+    }
+
+    section.reviews .dots li.slick-active button{
+        background: var(--primary);
+        width: 20px;
     }
