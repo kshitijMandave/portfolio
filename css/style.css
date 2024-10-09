@@ -359,3 +359,42 @@ section.blog .container .card-wrapper .card .card-content span {
   color: var(--primary);
   margin-bottom: 10px;
 }
+
+section.contact .container .card-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+section.contact .container .card img {
+  height: 120px;
+  padding-bottom: 15px;
+}
+section.contact .container .card {
+  text-align: center;
+}
+
+section.contact form {
+  text-align: center;
+  margin: 20px;
+}
+section.contact .input-wrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  margin-bottom: 20px;
+}
+
+section.contact .input-wrap input {
+  padding: 10px;
+}
+
+section.contact .input-wrap-2 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+section.contact .input-wrap-2 input {
+  padding: 10px;
+  margin-bottom: 20px;
+}
