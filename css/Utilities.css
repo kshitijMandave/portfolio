@@ -1,55 +1,55 @@
-.flex{
-    display: flex; /*To give it in one line*/
+.flex {
+  display: flex; /*To give it in one line*/
 }
 
-.items-center{
-    align-items: center; /*To Set Center of the logo image*/
+.items-center {
+  align-items: center; /*To Set Center of the logo image*/
 }
 
-.justify-between{
-    justify-content: space-between; /*This is for give space between to elements*/
+.justify-between {
+  justify-content: space-between; /*This is for give space between to elements*/
 }
 
-.justify-center{
-    justify-content: center;
+.justify-center {
+  justify-content: center;
 }
 
-.btn{
-    padding: 12px 32px;
-    font-size: 20px;
-    font-weight: 600;
-    border: 2px solid transparent;
-    outline: none;
-    cursor: pointer;
-    text-transform: uppercase;
+.btn {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid transparent;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
 }
 
-.btn-primary{
-    background: var(--primary); /*This is for button Color*/
-    color: var(--dark);
-    border-radius: 5px; /*This is for button Corner*/
+.btn-primary {
+  background: var(--primary); /*This is for button Color*/
+  color: var(--dark);
+  border-radius: 5px; /*This is for button Corner*/
 }
 
-.btn-secondary{
-    color: var(--primary);
-    background: transparent;
-    border-color: var(--primary);
-    transition: all .3s ease;
+.btn-secondary {
+  color: var(--primary);
+  background: transparent;
+  border-color: var(--primary);
+  transition: all 0.3s ease;
 }
 
-.btn-primary:hover{
-    color: var(--primary);
-    background: transparent;
-    border-color: var(--primary);
-    transition: all .3s ease;
+.btn-primary:hover {
+  color: var(--primary);
+  background: transparent;
+  border-color: var(--primary);
+  transition: all 0.3s ease;
 }
 
-.btn-secondary:hover{
-    background: var(--primary);
-    color: var(--dark);
-    transition: all .3s ease;
+.btn-secondary:hover {
+  background: var(--primary);
+  color: var(--dark);
+  transition: all 0.3s ease;
 }
 
-.flex-1{
-    flex: 1;
+.flex-1 {
+  flex: 1;
 }
