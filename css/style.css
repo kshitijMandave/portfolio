@@ -341,8 +341,9 @@ section.blog .container .card-wrapper .card {
 }
 
 section.blog .container .card-wrapper .card img {
-  width: 700px;
+  width: 880px;
   margin: auto;
+  margin-top: 10px;
 }
 
 section.blog .container .card-wrapper .card .img-wrapper {
