@@ -298,51 +298,26 @@ section.reviews .dots li.slick-active button {
   width: 1.5rem;
 }
 
-section.work {
+section.Skills {
   background: #e3eadf;
   /* height: 720px; */
 }
 
-section.work .card-wrapper {
+section.Skills .card-wrapper {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-row-gap: 2rem;
   grid-column-gap: 2rem;
 }
 
-section.work .card-wrapper .card {
+section.Skills .card-wrapper .card {
   position: relative;
+  margin: auto;
 }
 
-section.work .card-wrapper .card .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: var(--primary);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: white;
-  opacity: 0;
-  transition: all 0.3s ease; /*For Duration*/
-}
-section.work .card-wrapper .card:hover .overlay {
-  opacity: 1;
-}
-
-section.work .card-wrapper .card .overlay a {
-  color: var(--ternery);
-  text-decoration: none;
-  margin-top: 10px;
-  font-weight: 800;
-}
-
-section.work .card-wrapper .card img {
-  width: 100%;
-  height: 100%;
+section.Skills .card-wrapper .card img {
+  width: 100px;
+  /* height: 50%; */
 }
 
 section.blog {
@@ -356,18 +331,22 @@ section.blog .container .section_para {
 }
 
 section.blog .container .card-wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
+  margin: auto;
+  width: 80%;
 }
 
 section.blog .container .card-wrapper .card {
   background-color: white;
-  width: 300px;
+  width: 900px;
 }
 
 section.blog .container .card-wrapper .card img {
-  width: 300px;
+  width: 700px;
+  margin: auto;
+}
+
+section.blog .container .card-wrapper .card .img-wrapper {
+  text-align: center;
 }
 
 section.blog .container .card-wrapper .card .card-content {
@@ -401,6 +380,7 @@ section.blog .container .card-wrapper .card .card-content span {
   /* margin-bottom: 2rem; */
 }
 
+/* Contact Section */
 section.contact .container .card-wrapper {
   display: flex;
   justify-content: space-evenly;
@@ -562,7 +542,7 @@ footer div p {
     height: 320px;
   }
 
-  section.work .card-wrapper {
+  section.Skills .card-wrapper {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
   }
