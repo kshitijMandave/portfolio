@@ -320,63 +320,63 @@ section.Skills .card-wrapper .card img {
   /* height: 50%; */
 }
 
-section.blog {
+section.project {
   background: var(--ternery);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 90%, 0 100%);
   padding-bottom: 150px;
 }
 
-section.blog .container .section_para {
+section.project .container .section_para {
   color: var(--light);
 }
 
-section.blog .container .card-wrapper {
+section.project .container .card-wrapper {
   margin: auto;
   width: 80%;
 }
 
-section.blog .container .card-wrapper .card {
+section.project .container .card-wrapper .card {
   background-color: white;
   width: 900px;
 }
 
-section.blog .container .card-wrapper .card img {
+section.project .container .card-wrapper .card img {
   width: 880px;
   margin: auto;
   margin-top: 10px;
 }
 
-section.blog .container .card-wrapper .card .img-wrapper {
+section.project .container .card-wrapper .card .img-wrapper {
   text-align: center;
 }
 
-section.blog .container .card-wrapper .card .card-content {
+section.project .container .card-wrapper .card .card-content {
   padding: 1.5rem;
 }
 
-section.blog .container .card-wrapper .card .card-content h1 {
+section.project .container .card-wrapper .card .card-content h1 {
   color: var(--ternery);
   margin-bottom: 1rem;
 }
-section.blog .container .card-wrapper .card .card-content h1:hover {
+section.project .container .card-wrapper .card .card-content h1:hover {
   color: var(--pure);
 }
 
-section.blog .container .card-wrapper .card .card-content a {
+section.project .container .card-wrapper .card .card-content a {
   text-decoration: none;
 }
 
-section.blog .container .card-wrapper .card .card-content a:hover {
+section.project .container .card-wrapper .card .card-content a:hover {
   color: var(--pure);
 }
 
-section.blog .container .card-wrapper .card .card-content p {
+section.project .container .card-wrapper .card .card-content p {
   text-align: justify;
   font-size: 1rem;
   margin-bottom: 1rem;
 }
 
-section.blog .container .card-wrapper .card .card-content span {
+section.project .container .card-wrapper .card .card-content span {
   color: var(--primary);
   /* margin-bottom: 2rem; */
 }
@@ -548,10 +548,10 @@ footer div p {
     grid-gap: 2rem;
   }
 
-  section.blog .container .card-wrapper {
+  section.project .container .card-wrapper {
     grid-template-columns: repeat(2, 1fr);
   }
-  section.blog {
+  section.project {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 77% 96%, 0 100%);
   }
 }
